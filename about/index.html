@@ -44,7 +44,7 @@
 </head>
 <div style="display: none">
   <input class="theme_disqus_on" value="false">
-  <input class="theme_preload_comment" value="false">
+  <input class="theme_preload_comment" value="true">
   <input class="theme_blog_path" value>
 </div>
 
@@ -61,16 +61,6 @@
 <div class="icon">
     
         
-        <a title="rss" href="/atom.xml" target="_blank">
-            
-                <svg class="iconfont-svg" aria-hidden="true">
-                    <use xlink:href="#icon-rss"></use>
-                </svg>
-            
-        </a>
-        
-    
-        
         <a title="github" href="https://github.com/NAGAhuipeng" target="_blank">
             
                 <svg class="iconfont-svg" aria-hidden="true">
@@ -78,12 +68,6 @@
                 </svg>
             
         </a>
-        
-    
-        
-    
-        
-    
         
     
         
@@ -179,8 +163,6 @@
         
     
         
-    
-        
         <a title="neteasemusic" href="https://music.163.com/#/user/home?id=598142608" target="_blank">
             
                 <svg class="iconfont-svg" aria-hidden="true">
@@ -194,6 +176,8 @@
 
 
 
+<a class="more-menus">更多菜单</a>
+
 
 <ul>
     <li><div class="all active">全部文章<small>(1)</small></div></li>
@@ -202,6 +186,8 @@
 <div class="left-bottom">
     <div class="menus">
     
+    
+    <a class="dynamic-menu site_url"   href="/photos">相册</a>
     
     
     
@@ -312,6 +298,17 @@
         </span>
         
         
+        <span class="top-comment" title="跳转至评论区">
+            <a href="#comments">
+                评论:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
+        
     </div>
     
     <div class="toc-ref">
@@ -343,6 +340,27 @@
 </p>
 
 
+
+
+    <div id="comments"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+<script type="text/javascript">
+    $.getScript('/js/gitalk.js', function () {
+        var gitalk = new Gitalk({
+            clientID: 'ea75a2ea773c3c9ae584',
+            clientSecret: '70c4df6483c11af54ca0e8a78c59c5439d7c7e32',
+            repo: 'NAGA.github.io',
+            owner: 'NAGAhuipeng',
+            admin: ['NAGAhuipeng'],
+            id: location.pathname,
+            distractionFreeMode: 'true',
+            language: 'zh-CN',
+            perPage: parseInt('10',10)
+        })
+        gitalk.render('comments')
+    })
+</script>
 
 
 
@@ -569,6 +587,18 @@
 
 
 
+
+<div class="mobile-menus-out" >
+
+</div>
+<div class="mobile-menus">
+    
+    
+    <a class="dynamic-menu site_url"   href="/photos">相册</a>
+    
+    
+    
+</div>
 
 
 </html>
