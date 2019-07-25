@@ -4,7 +4,7 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, 辉鹏&#39;s Blog">
+    <meta name="keywords" content="分类, 坚持 幸运 爱">
     <meta name="description" content="分类 | 辉鹏&#39;s Blog">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -119,7 +119,7 @@
         <div class="logo-name">辉鹏's Blog</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            杰克对露丝说，赢得船票是他最幸运的事
             
         </div>
     </div>
@@ -263,13 +263,13 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    subtitle
+                    ARK
                 
             </div>
 
             <div class="description center-align">
                 
-                    This is your root _config.yml 'description' value.
+                    杰克对露丝说，赢得船票是他最幸运的事
                 
             </div>
         </div>
@@ -294,13 +294,96 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             </div>
             <div class="tag-chips">
                 
-                你目前还没有对文章进行分类.
+                
+                
+                <a href="/categories/Hexo基本使用/" title="Hexo基本使用: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">Hexo基本使用
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/web前端/" title="web前端: 0">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">web前端
+                        <span class="tag-length">0</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/Lili的海/" title="Lili的海: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">Lili的海
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
                 
             </div>
         </div>
     </div>
 </div>
 
+    
+    <style type="text/css">
+    #category-radar {
+        width: 100%;
+        height: 360px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="category-radar" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
+<script type="text/javascript">
+    let radarChart = echarts.init(document.getElementById('category-radar'));
+
+    
+
+    let option = {
+        title: {
+            left: 'center',
+            text: '文章分类雷达图',
+            textStyle: {
+                fontWeight: 500,
+                fontSize: 22
+            }
+        },
+        tooltip: {},
+        radar: {
+            name: {
+                textStyle: {
+                    color: '#3C4858'
+                }
+            },
+            indicator: [{"name":"Hexo基本使用","max":1},{"name":"web前端","max":1},{"name":"Lili的海","max":1}],
+            nameGap: 5,
+            center: ['50%','55%'],
+            radius: '66%'
+        },
+        series: [{
+            type: 'radar',
+            color: ['#3ecf8e'],
+            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+            data : [
+                {
+                    value : [1,0,1],
+                    name : '文章分类数量'
+                }
+            ]
+        }]
+    };
+
+    radarChart.setOption(option);
+</script>
     
 
 </main>
@@ -312,7 +395,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">124</span>
+                <span class="white-color">1.9k</span>
             
 
             

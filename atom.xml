@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>辉鹏&#39;s Blog</title>
   
-  
+  <subtitle>ARK</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-24T13:55:54.120Z</updated>
+  <updated>2019-07-25T06:29:53.003Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/07/24/hello-world/"/>
-    <id>http://yoursite.com/2019/07/24/hello-world/</id>
-    <published>2019-07-24T02:51:53.345Z</published>
-    <updated>2019-07-24T13:55:54.120Z</updated>
+    <title>网易云</title>
+    <link href="http://yoursite.com/2019/07/25/sorro/"/>
+    <id>http://yoursite.com/2019/07/25/sorro/</id>
+    <published>2019-07-25T05:44:36.225Z</published>
+    <updated>2019-07-25T06:29:53.003Z</updated>
     
     <summary type="html">
     
@@ -29,12 +29,42 @@
       
         
         
-          &lt;p&gt;欢迎来到 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! 这是你的第一篇文章。查看 &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot;
+          &lt;p&gt;瀑布的水逆流而上， 蒲公英种子从远处飘回，聚成伞的模样， 太阳从西边升起，落向东方。 子弹退回枪膛，运&lt;br&gt;动员回到起跑线上， 我交回录取通知书，忘了十年寒窗。 厨房里飘来饭菜的香， 你把我的卷子签好名字， 关掉&lt;br&gt;电视，帮我把书包背上。
         
       
     
     </summary>
     
+      <category term="Lili的海" scheme="http://yoursite.com/categories/Lili%E7%9A%84%E6%B5%B7/"/>
+    
+    
+      <category term="那些提笔不曾写下的绝句" scheme="http://yoursite.com/tags/%E9%82%A3%E4%BA%9B%E6%8F%90%E7%AC%94%E4%B8%8D%E6%9B%BE%E5%86%99%E4%B8%8B%E7%9A%84%E7%BB%9D%E5%8F%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基本操作</title>
+    <link href="http://yoursite.com/2019/07/24/hello-world/"/>
+    <id>http://yoursite.com/2019/07/24/hello-world/</id>
+    <published>2019-07-24T02:51:53.345Z</published>
+    <updated>2019-07-25T06:29:57.385Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;欢迎来到 &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! 这是你的第一篇文章。查看 [documentation](&lt;a href=&quot;https://hexo.io/&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo基本使用" scheme="http://yoursite.com/categories/Hexo%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+    
+    
+      <category term="爱博客" scheme="http://yoursite.com/tags/%E7%88%B1%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
